@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="task5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        
+        <!-- Location Input -->
+        <input type="text" id="location" placeholder="Enter city" />
+
+        <button id="getWeatherBtn">Get Weather</button>
+
+        <!-- Current Weather Info -->
+        <div id="weather-info">
+            <h2>Weather in <span id="city-name"></span></h2>
+            <p><strong>Temperature:</strong> <span id="temperature"></span>°C</p>
+            <p><strong>Description:</strong> <span id="weather-description"></span></p>
+            <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+            <p><strong>Wind Speed:</strong> <span id="wind-speed"></span> m/s</p>
+        </div>
+    </div>
+
+    <script src="task5.js"></script>
+</body>
+</html>
